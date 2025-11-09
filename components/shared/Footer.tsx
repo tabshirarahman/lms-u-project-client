@@ -11,7 +11,7 @@ export function Footer() {
             About Us
           </h3>
           <p className="text-gray-600 dark:text-gray-400">
-            DigitalFixShop is your one-stop store for premium tech products —
+            Lms Team is your one-stop store for premium tech products —
             from laptops to smartphones, we deliver quality and trust.
           </p>
         </div>
@@ -45,7 +45,7 @@ export function Footer() {
 
       {/* Bottom */}
       <div className="border-t border-gray-200 dark:border-neutral-800 py-4 text-center text-xs text-gray-500 dark:text-gray-400">
-        © {new Date().getFullYear()} DigitalFixShop — All Rights Reserved.
+        © {new Date().getFullYear()} Lms Team — All Rights Reserved.
       </div>
     </footer>
   );

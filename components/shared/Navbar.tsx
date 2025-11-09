@@ -16,7 +16,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-4">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-blue-600">
-          DigitalFix<span className="text-neutral-700 dark:text-gray-300">Shop</span>
+          LMS<span className="text-neutral-700 dark:text-gray-300">Team</span>
         </Link>
 
         {/* Desktop Menu */}

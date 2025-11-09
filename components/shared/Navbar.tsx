@@ -22,7 +22,7 @@ export function Navbar() {
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-8 font-medium">
           <Link href="/" className="hover:text-blue-600 transition">Home</Link>
-          <Link href="/products" className="hover:text-blue-600 transition">Products</Link>
+          <Link href="/courses" className="hover:text-blue-600 transition">Courses</Link>
           <Link href="/about" className="hover:text-blue-600 transition">About</Link>
           <Link href="/contact" className="hover:text-blue-600 transition">Contact</Link>
         </nav>

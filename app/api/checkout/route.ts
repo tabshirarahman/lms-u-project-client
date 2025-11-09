@@ -9,7 +9,7 @@ export async function POST(req: Request) {
       payment_method_types: ["card"],
       mode: "payment",
       success_url: `${process.env.NEXT_PUBLIC_APP_URL}/success`,
-      cancel_url: `${process.env.NEXT_PUBLIC_APP_URL}/products`,
+      cancel_url: `${process.env.NEXT_PUBLIC_APP_URL}/courses`,
       line_items: items.map((item: any) => ({
         price_data: {
           currency: "usd",

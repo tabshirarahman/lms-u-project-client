@@ -1,9 +1,25 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   images: {
-    domains: ["www.sotophone.com", "blogs.microsoft.com", "images.unsplash.com", "cdn-dynmedia-1.microsoft.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.sotophone.com",
+      },
+      {
+        protocol: "https",
+        hostname: "blogs.microsoft.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn-dynmedia-1.microsoft.com",
+      },
+    ],
   },
 };
 
